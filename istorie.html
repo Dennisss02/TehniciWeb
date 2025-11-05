@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "icon" type = "image/jpeg" href = "favicon.png">
+        <link rel = "stylesheet" type = "text/css" href = "style_mare.css" media = "(min-width: 800px)">
+        <link rel = "stylesheet" type = "text/css" href = "style_mic.css" media = "(max-width: 800px)">
+        <title>Arta | Istorie</title>
+        <script>
+            window.onload = function(){
+                if(sessionStorage.length == 0)
+                    document.querySelector(".meniu_ultim .submeniu").style.display = "none";
+            }
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Arta</h1>
+            <nav>
+                <input type="checkbox" id="check_meniu">
+                <label id="meniu_mic" for="check_meniu">
+                    <div id="meniu_simbol">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </label>
+
+                <ul class="meniu">
+                    <li class="meniu_prim"><a href="main.html">Pagina principală</a></li>
+                    <li>
+                        <a href="istorie.html">Istoria artei</a>
+                        <ul class="submeniu">
+                            <li><a href="istorie.html#istorie_def">Introducere</a></li>
+                            <li><a href="istorie.html#istorie_evolutie">Evoluția artei</a></li>
+                            <li class="sub_ultim"><a href="istorie.html#istorie_etape">Etape</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="categorii.html">Categorii</a>
+                        <ul class="submeniu">
+                            <li><a href="categorii.html#literatura">Literatura</a></li>
+                            <li><a href="categorii.html#plastica">Arta plastică</a></li>
+                            <li class="sub_ultim"><a href="categorii.html#spectacol">Arta spectacolului</a></li>
+                        </ul>
+                    </li>
+                    <li class="meniu_ultim">
+                        <a href="galerie.html">Galerie de imagini</a>
+                        <a class="submeniu sub_ultim" href="galerie.html#joc">Mini joc</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article id="istorie_def">
+                <h2>Ce este arta?</h2>
+                <p>Arta este importantă nu doar pentru valoarea estetică pe care o exprimă. Aceasta <b>are puterea de a comunica 
+                    diverse mesaje</b>, influența societatea, modifica viața și percepția noastră. În perioade de criză, arta este 
+                    cea care ne poate uni ca și comunitate sau cultură, ajutându-ne să comunicăm stări, sentimente și idei comune.</p>
+                <p>Arta presupune subiectivitate; artistul ne oferă o imagine proprie asupra lumii și nu are pretenția ca reprezentarea 
+                    sa să fie o copie exactă a ceea ce este. În esență, artistul dorește să explice privitorului <i>modul în care el 
+                    vede</i>, întelege, explică și vrea să comunice ceea ce îl înconjoară și ce valori atașează acestei viziuni proprii.</p>
+                <p>De exemplu, picturile rupestre, ce reprezintă desenele rămase pe stânci sau pe pereții peșterilor încă din preistorie, 
+                    ne ajută să <b>înțelegem trecutul omenirii</b> și modul de viață al strămoșilor noștri din Epoca de Piatră.</p>
+                <p>Arta este un concept complex și cu diverse interpretări, care înglobează vaste ramuri ale <b>imaginației și creativității umane</b>. 
+                    Arta reprezintă expresia prin care oamenii își manifestă creativitatea și imaginația, iar această expresie poate lua 
+                    diverse <i>forme, stiluri și interpretări</i>.</p>
+            </article>
+            <div class="istorie_aside">
+                <aside id="istorie_imagini">
+                    <figure>
+                        <img src="galerie/istoria_artei1.jpg" alt="Inscripții antice în piatră">
+                        <figcaption>Inscripții antice în piatră</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei2.jpg" alt="Brățară din Tezaurul Oxus">
+                        <figcaption>Brățară din Tezaurul Oxus</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei3.jpg" alt="Statuia Atenei, sculptată în teracotă">
+                        <figcaption>Statuia Atenei, sculptată în teracotă</figcaption>
+                    </figure>
+                    <figure>   
+                        <img src="galerie/istoria_artei4.jpg" alt="Templul grec Parthenon">
+                        <figcaption>Templul grec Parthenon</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei5.jpg" alt="Colosseum">
+                        <figcaption>Colosseumul</figcaption>
+                    </figure>
+                    <figure>    
+                        <img src="galerie/istoria_artei6.jpg" alt="Vitraliu cu Regele David și fiul său Solomon">
+                        <figcaption>Vitraliu cu Regele David și Solomon</figcaption>
+                    </figure>
+                </aside>
+                <aside id="istorie_stiaica">
+                    <h3>Știai că...?</h3>
+                    <p>Primii descoperitori ai monumentelor de artă parietală și mobiliară au fost acuzați că ar fi fabricat aceste monumente. 
+                        În secolul XIX, când s-au făcut primele astfel de descoperiri, viziunea savanților despre oamenii paleoliticului era că 
+                        aceștia <i>nu aveau potențialul intelectual</i> necesar pentru a produce opere de artă.</p>
+                </aside>
+            </div>
+            <article id="istorie_evolutie">
+                <h2>Cum a evoluat arta în timp?</h2>
+                <p>În artă, conștiința autorului că a creat ceva unic apare relativ târziu, în lumea greacă. Abia atunci încep artiștii 
+                    să-și semneze operele, fiind conștienți de faptul că ei sunt altceva decât simpli meșteșugari, poate foarte dotați 
+                    și cunoscători ai vechilor rețete ale meșterilor trecuți.</p>
+                <p>Primele expresii artistice sunt databile la sfârșitul paleoliticului mijlociu și începutul paleoliticului superior, 
+                    deci pe la 40.000-20.000 î. Hr. Aceste forme sunt o serie de elemente trasate cu degetul înmuiat în vopsea sau pur 
+                    și simplu în pastă de calcar moale de pe <b>pereții peșterilor</b>: linii simple și șiruri de puncte.</p>
+                <p>Urmatoarea fază o constituie apariția unor reprezentări mai bine conturate și utilizarea, pentru prima dată, a 
+                    <b>picturii și a gravurii propriu-zise</b>. Realizarea picturilor presupunea un anumit efort: coloranții erau obtinuți 
+                    din ocru pentru culoarea roșie sau din mangan pentru culoarea neagră; pudra obținută din măcinarea acestor minerale 
+                    era amestecată cu apă sau cu grăsimi.</p>
+                <p>Artiștii s-au îndepărtat de tradiția clasicistă, îmbrațișând noi medii și idealuri artistice, iar istoricii de artă 
+                    și-au mutat atenția de la analiza frumuseții formale a artei la <b>interpretarea semnificației sale culturale</b>. 
+                    Astăzi înțelegem frumusețea ca fiind <i>subiectivă</i>, un construct cultural care variază în timp și spatiu. În timp 
+                    ce majoritatea artei continuă să fie în principal vizuala, iar analiza vizuală este în continuare un instrument 
+                    fundamental folosit de către istoricii de artă, frumusețea în sine nu mai este considerată un atribut esențial artei.</p>
+            </article>
+            <article id="istorie_etape">
+                <h2>Principalele etape ale evoluției artei</h2>
+                <div class="istorie_grid">
+                    <section id="istorie_inceput">
+                        <h3>Începuturile artei</h3>
+                        <p>Istoria artei începe acum 40.000 de ani cu picturile rupestre care erau utilizate de către omul preistoric ca un 
+                            mod de a transmite rapid informații și de a-și educa semenii prin limbaj vizual. Acestea reprezentau cel mai 
+                            adesea scene de vânătoare, imagini ale unor animale și oameni și uneori scene ritualice.</p>
+                        <p>Dupa epoca preistorică urmează arta culturilor din epoca bronzului, care a început acum circa 11.000 de ani cu 
+                            comunitățile de vânători și culegători din Mesopotamia. Civilizații precum cea Sumeriană, Arcadiană, Babiloniană 
+                            și cea Asiriană au pus bazele scrisului și a unei arte sofisticate cu sculpturi și ansambluri arhitecturale cu 
+                            elemente decorative și scene narative.</p>
+                    </section>
+                    <section id="istorie_antic">
+                        <h3>Antichitatea</h3>
+                        <p>În urma civilizației egiptene s-a dezvoltat Antichitatea greacă și romană, considerată și astăzi de către istoricii 
+                            de artă ca fiind cea mai importantă perioadă de apogeu a artei și a arhitecturii.</p>
+                        <p>Grecii au pus bazele unui canon reprezentațional care se bazează pe forme echilibrate, simetrice și naturale, care a 
+                            fost păstrat până în contemporaneitate și admirat de către artiștii Renașterii în secolele al XIV-lea și al XV-lea.</p>
+                        <p>Arta Romană a preluat inovațiile și canonul reprezentațional ale artei grecești și le-a răspândit în cea mai mare 
+                            parte a Imperiului Roman. Astfel, sculptura idealizată din Grecia Antică și inovațiile tehnologice romane au ajuns 
+                            în regiuni care astăzi sunt ocupate de Marea Britanie, Franța, Spania și România.</p>
+                    </section>
+                    <section id="istorie_evulmediu">
+                        <h3>Evul Mediu</h3>
+                        <p>În Evul Mediu, arta a fost folosită ca un instrument de promovare a idealurilor și credințelor creștine. Astfel, 
+                            arta produsă între secolele al III-lea și al XIV-lea în cea mai mare parte este reprezentată de imagini iconice și 
+                            figuri religioase.</p>
+                        <p>Monumentul reprezentativ pentru Evul Mediu este biserica. Cele mai grandioase și spectaculoase edificii au fost 
+                            construite în perioada artei gotice, în care elementele decorative au jucat un rol important. Bisericile au fost 
+                            îmbogățite cu sculpturi, altare și decorații din aur, pietre și textile prețioase pentru a atrage cât mai mulți 
+                            oameni și pentru a oferi un spectacol vizual demn de comparat cu Împărăția cerească.</p>
+                    </section>
+                    <section id="istorie_renastere">
+                        <h3>Renașterea</h3>
+                        <p>Renașterea a reprezentat o perioadă de înflorire culturală și artistică în Europa și prin care s-a dorit 
+                            reactualizarea perfecțiunii artei antice, mai ales a celei grecești. Centrul artistic din secolele al XIV-lea și 
+                            al XV-lea era reprezentat de Florența și implicit de Italia.</p>
+                        <p>Renașterea este una dintre cele mai studiate perioade din istoria artei și în același timp reprezintă și subiectul 
+                            a multor dezbateri din lumea academică. În timpul Renașterii, artiștii s-au reîntors la canoanele antichității 
+                            grecești și romane și au început să caute perfecțiunea, atât în pictură și sculptură, dar și în arhitectură. 
+                            În același timp, pe lângă artele vizuale, s-au dezvoltat teatrul, muzica și literatura. Tot în timpul Renașterii 
+                            a fost inventat în Europa și tiparul, o inovație care a schimbat literatura și a pus bazele unui sistem educațional 
+                            european care începea să fie mai accesibil.</p>
+                    </section>
+                    <section id="istorie_curente">
+                        <h3>Curente moderne</h3>
+                        <p>În Neoclasicism, artiștii s-au întors din nou către lumea clasică a antichității, iar interesul pentru simplitate și 
+                            echilibru a fost reintegrat în artă. Neoclasicismul a fost urmat de Romantism, o mișcare artistică în care artiștii 
+                            s-au inspirat din natura din jurul lor și din imaginație. După Revoluția Franceză de la 1789 a apărut Realismul, un 
+                            curent artistic favorizat de condițiile sociale. Artiștii Realismului au pus accentul pe reprezentarea oamenilor 
+                            reali din viața de zi cu zi. Subiectele de acest gen au fost ignorate până atunci și considerate nepotrivite sau 
+                            chiar scandaloase pentru operele de artă majore.</p>
+                        <p>După cea de-a doua jumătate a secolului al XIX-lea a apărut curentul Impresionist ca o alternativă la arta oficială, 
+                            cea promovată de academiile artistice. Impresionismul își propunea o reprezentare a vieții cotidiente și o atenție 
+                            sporită acordată culorii. În urma artiștilor impresioniști au apărut Post-Impresionismul și Expresionsimul, care au 
+                            anunțat avangardele artistice ale secolului al XX-lea.</p>
+                        <p>Evoluția tehnologiei a avut un rol crucial pentru direcția artei. Impresionismul a apărut, printre 
+                            altele, ca rezultat al apariției fotografiei. În acelasi timp, curente precum Futurismul au fost inspirate de avansul 
+                            tehnologic al secolului al XX-lea, alături de noile teorii ale artei abstracte, cubiste, dadaiste și suprarealiste, 
+                            cât și a mișcării Bauhaus care a revoluționat dincolo de toate designul și arhitectura așa cum le vedem astăzi.</p>
+                    </section>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <h4>Date de contact</h4>
+            <ul>
+                <li>E-mail: denis-andrei.bratu@s.unibuc.ro</li>
+                <li>Instagram: @denis.andrei02</li>
+                <li>Fizic: Laborator 221-A</li>
+            </ul>
+        </footer>
+    </body>
+</html>

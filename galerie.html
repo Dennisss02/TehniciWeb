@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "icon" type = "image/jpeg" href = "favicon.png">
+        <link rel = "stylesheet" type = "text/css" href = "style_mare.css" media = "(min-width: 800px)">
+        <link rel = "stylesheet" type = "text/css" href = "style_mic.css" media = "(max-width: 800px)">
+        <title>Arta | Galerie</title>
+        <script type="text/javascript" src="joc.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Arta</h1>
+            <nav>
+                <input type="checkbox" id="check_meniu">
+                <label id="meniu_mic" for="check_meniu">
+                    <div id="meniu_simbol">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </label>
+
+                <ul class="meniu">
+                    <li class="meniu_prim"><a href="main.html">Pagina principală</a></li>
+                    <li>
+                        <a href="istorie.html">Istoria artei</a>
+                        <ul class="submeniu">
+                            <li><a href="istorie.html#istorie_def">Introducere</a></li>
+                            <li><a href="istorie.html#istorie_evolutie">Evoluția artei</a></li>
+                            <li class="sub_ultim"><a href="istorie.html#istorie_etape">Etape</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="categorii.html">Categorii</a>
+                        <ul class="submeniu">
+                            <li><a href="categorii.html#literatura">Literatura</a></li>
+                            <li><a href="categorii.html#plastica">Arta plastică</a></li>
+                            <li class="sub_ultim"><a href="categorii.html#spectacol">Arta spectacolului</a></li>
+                        </ul>
+                    </li>
+                    <li class="meniu_ultim">
+                        <a href="galerie.html">Galerie de imagini</a>
+                        <a class="submeniu sub_ultim" href="galerie.html#joc">Mini joc</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article id="galerie_art">
+                <h2>Galerie de imagini</h2>
+                <div id="galerie">
+                    <figure>
+                        <img src="galerie/ballet.jpg" alt="Balet">
+                        <figcaption>Balet</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/michelangelo.jpg" alt="Facerea lui Adam">
+                        <figcaption>Facerea lui Adam - Michelangelo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/noaptea_instelata.jpg" alt="Noaptea instelata">
+                        <figcaption>Noaptea înstelată - Vincent van Gogh</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/lacul_lebedelor.jpg" alt="Lacul lebedelor">
+                        <figcaption>Lacul lebedelor</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei3.jpg" alt="Statuia Atenei">
+                        <figcaption>Statuia Atenei</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei4.jpg" alt="Templul Parthenon">
+                        <figcaption>Templul Parthenon</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei5.jpg" alt="Colosseumul">
+                        <figcaption>Colosseumul</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="galerie/istoria_artei6.jpg" alt="Vitraliu cu regele David și Solomon">
+                        <figcaption>Vitraliu cu regele David și Solomon</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/mona_lisa.jpg" alt="Mona Lisa">
+                        <figcaption>Mona Lisa - Leonardo da Vinci</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/tipatul.jpg" alt="Țipătul">
+                        <figcaption>Țipătul - Edvard Munch</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/notre_dame.jpg" alt="Catedrala Notre-Dame">
+                        <figcaption>Catedrala Notre-Dame</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/poarta_sarutului.jpg" alt="Poarta sărutului">
+                        <figcaption>Poarta sărutului - Constantin Brâncuși</figcaption>
+                    </figure>
+                    </div>
+            </article>
+        </main>
+
+        <section id="joc">
+            <div id="joc_div">
+                <h2 id="titlu">Testează-ți cunoștințele!</h2>
+                <div>
+                    <p id="scor1"></p>
+                    <p id="scor2"></p>
+                </div>
+            </div>
+            <div id="dificultate">
+                <h3>Nivel de dificultate</h3>
+                <button id="niv1">Ușor</button>
+                <button id="niv2">Dificil</button>
+            </div>
+            
+            <h4>Potrivește cartonașele cu imaginile corespunzătoare lucrărilor de artă!</h4>
+        </section>
+
+        <footer>
+            <h4>Date de contact</h4>
+            <ul>
+                <li>E-mail: denis-andrei.bratu@s.unibuc.ro</li>
+                <li>Instagram: @denis.andrei02</li>
+                <li>Fizic: Laborator 221-A</li>
+            </ul>
+        </footer>
+    </body>
+</html>

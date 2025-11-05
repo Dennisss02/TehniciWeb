@@ -1,0 +1,171 @@
+<!-- apache, then -->
+<!-- py -m http.server -->
+
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "icon" type = "image/jpeg" href = "favicon.png">
+        <link rel = "stylesheet" type = "text/css" href = "style_mare.css" media = "(min-width: 800px)">
+        <link rel = "stylesheet" type = "text/css" href = "style_mic.css" media = "(max-width: 800px)">
+        <title>Arta</title>
+        <script type="text/javascript" src="login.js" defer></script>
+        <script type="text/javascript" src="desen.js" defer></script>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Arta</h1>
+            <nav>
+                <input type="checkbox" id="check_meniu">
+                <label id="meniu_mic" for="check_meniu">
+                    <div id="meniu_simbol">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </label>
+
+                <ul class="meniu">
+                    <li class="meniu_prim">
+                        <a href="main.html">Pagina principală</a>
+                        <a class="submeniu sub_ultim" href="main.html#login">Conectare</a>
+                    </li>
+                    <li>
+                        <a href="istorie.html">Istoria artei</a>
+                        <ul class="submeniu">
+                            <li><a href="istorie.html#istorie_def">Introducere</a></li>
+                            <li><a href="istorie.html#istorie_evolutie">Evoluția artei</a></li>
+                            <li class="sub_ultim"><a href="istorie.html#istorie_etape">Etape</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="categorii.html">Categorii</a>
+                        <ul class="submeniu">
+                            <li><a href="categorii.html#literatura">Literatura</a></li>
+                            <li><a href="categorii.html#plastica">Arta plastică</a></li>
+                            <li class="sub_ultim"><a href="categorii.html#spectacol">Arta spectacolului</a></li>
+                        </ul>
+                    </li>
+                    <li class="meniu_ultim">
+                        <a href="galerie.html">Galerie de imagini</a>
+                        <a class="submeniu sub_ultim" href="galerie.html#joc">Mini joc</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main_fill">
+                <p style="display: none;">...</p>
+            </div>
+            <div class="main_general">
+                <article id="main_desc_arta">
+                    <h2>Ce este arta?</h2>
+                    <p>Arta este, în esență, cea mai profundă expresie a creativității umane.</p>
+                    <p>Într-un sens larg, termenul artă desemnează orice activitate care se bazează pe cunoștințe, exercițiu, 
+                        percepție, imaginație și intuiție.</p>
+                    <p>Prin modul său de manifestare, arta poate fi considerată și ca o formă de cunoaștere (cunoașterea artistică).</p>
+                </article>
+                <article id="main_desc_tipuri">
+                    <h2>Tipuri de artă</h2>
+                    <p>Principalele forme de artă sunt reprezentate de: arta plastică (pictură, sculptură, arhitectură), literatura 
+                        (poezie, proză, dramă) și arta spectacolului (teatru, operă, muzică, dans).</p>
+                    <p>În ultimele decenii, împărțirea clasică a artei începe să își piardă importanța.</p>
+                    <p>Tehnicile și mijloacele artei s-au lărgit semnificativ.</p>
+                </article>
+                <aside id="slideshow">
+                    <a href="galerie.html">
+                        <img id="img1" src="galerie/starrynight.jpg" alt="Noapte instelata">
+                        <img id="img2" src="galerie/michelangelo.jpg" alt="Facerea lui Adam">
+                        <img id="img3" src="galerie/ballet.jpg" alt="Balet">
+                    </a>
+                </aside>
+            </div>
+            <div id="main_tipuri">
+                <article class="main_literatura">
+                    <h3>Literatura</h3>
+                    <img src="galerie/literature_banner.png" alt="Literatura - imagine">
+                    <p>Literatura (sau beletristica) este arta compozițiilor scrise. Literatura se poate împărți în trei genuri: epic, liric și dramatic.</p>
+                </article>
+                <article class="main_plastica">
+                    <h3>Arta plastică</h3>
+                    <img src="galerie/visualart_banner.png" alt="Arta plastica - imagine">
+                    <p>Artele plastice sunt practicile sau activitățile care realizează o reprezentare artistică sau estetică, prin forme sau volume.</p>
+                </article>
+                <article class="main_spectacol">
+                    <h3>Arta spectacolului</h3>
+                    <img src="galerie/performing_banner.png" alt="Arta spectacolului - imagine">
+                    <p>Artele spectacolului reprezintă formele de artă care presupun interpretarea unor artiști pentru un public spectator.</p>
+                </article>
+            </div>
+            <section id="main_istorie">
+                <h2>Istoria artei</h2>
+                <p>Istoria artei se concentrează asupra obiectelor realizate de oameni în forma vizuală, cu scopuri estetice.</p>
+                <p>Artiștii s-au îndepărtat de tradiția clasicistă, îmbrățișând noi medii și idealuri artistice, iar istoricii de artă și-au mutat 
+                    atenția de la analiza frumuseții formale a artei la interpretarea semnificației sale culturale. Astăzi înțelegem frumusețea 
+                    ca fiind subiectivă - un construct cultural care variază în timp și spațiu. În timp ce majoritatea artei continuă să fie în 
+                    principal vizuală, iar analiza vizuală este în continuare un instrument fundamental folosit de către istoricii de artă, 
+                    frumusețea în sine nu mai este considerată un atribut esențial artei.</p>
+                <p>În prezent, cea mai mare dezvoltare socială cu care se confruntă istoria artei este globalismul. Pe măsură ce lumea noastră 
+                    devine din ce în ce mai interconectată, familiarizarea cu diferitele culturi și facilitarea diversității devin importante. 
+                    Istoria artei, ca și povestea artefactelor excepționale dintr-o gamă largă de culturi, are un rol de jucat în dezvoltarea 
+                    acestor abilități.</p>
+                </section>
+
+            <aside id="login">
+                <form id="conectare">
+                    <h3>Conectare</h3>
+                    <input type="text" id="email" placeholder="E-mail" required>
+                    <input type="password" id="parola" placeholder="Parolă" required>
+                    <button type="submit">Conectează-te</button>
+                </form>
+                <form id="inregistrare">
+                    <h3>Înregistrare</h3>
+                    <input type="text" id="nume_inr" placeholder="Nume" required>
+                    <input type="text" id="email_inr" placeholder="E-mail" required>
+                    <input type="password" id="parola_inr" placeholder="Parolă" required>
+                    <button type="submit">Înregistrare</button>
+                </form>
+                <div id="inr">
+                    <h4>Nu ai cont?</h4>
+                    <button>Înregistrează-te</button>
+                </div>
+            </aside>
+            <div id="logout">
+                <h4>Bună, </h4>
+                <button>Deconectează-te</button>
+            </div>
+
+            <aside id="desen">
+                <h4>Creează-ți propria operă de artă!</h4>
+                <div>
+                    <button id="cerc">Cerc</button>
+                    <button id="patrat">Pătrat</button>
+                    <button id="inima"><3</button>
+                    <button id="linie">Linie</button>
+                    <select name="culoare">
+                        <option value="rosu">Roșu</option>
+                        <option value="portocaliu">Portocaliu</option>
+                        <option value="galben">Galben</option>
+                        <option value="verde">Verde</option>
+                        <option value="albastru">Albastru</option>
+                        <option value="mov">Mov</option>
+                        <option value="roz">Roz</option>
+                        <option value="negru">Negru</option>
+                    </select>
+                </div>
+                <canvas id="canvas" width="1000" height="300"></canvas>
+            </aside>
+        </main>
+
+        <footer>
+            <h4>Date de contact</h4>
+            <ul>
+                <li>E-mail: denis-andrei.bratu@s.unibuc.ro</li>
+                <li>Instagram: @denis.andrei02</li>
+                <li>Fizic: Laborator 221-A</li>
+            </ul>
+        </footer>
+    </body>
+</html>

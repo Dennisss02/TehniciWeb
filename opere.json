@@ -1,0 +1,10 @@
+[
+    {"sursa": "media/notre_dame.jpg", "nume": "Catedrala Notre-Dame"}, 
+    {"sursa": "media/poarta_sarutului.jpg", "nume": "Poarta Sarutului"}, 
+    {"sursa": "media/mona_lisa.jpg", "nume": "Mona Lisa"}, 
+    {"sursa": "media/romeo_si_julieta.jpg", "nume": "Romeo si Julieta"}, 
+    {"sursa": "media/tipatul.jpg", "nume": "Tipatul"}, 
+    {"sursa": "media/noaptea_instelata.jpg", "nume": "Noaptea instelata"}, 
+    {"sursa": "media/gaitele.jpg", "nume": "Gaitele"}, 
+    {"sursa": "media/crima_si_pedeapsa.jpg", "nume": "Crima si pedeapsa"}
+]
